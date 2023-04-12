@@ -192,12 +192,10 @@ nav {
     }
 
     .toggle__menu :hover {
-        color: #3b5985;
     }
 
     .close__menu {
         margin: 1rem 1rem 1rem auto;
-        background-color: #3b5985;
         border-radius: 50%;
         width: 32px;
         height: 32px;
