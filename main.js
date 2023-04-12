@@ -3,9 +3,9 @@ const toggleMenu = document.getElementById('toggle-menu');
 const closeMenu = document.getElementById('close-menu'); 
 
 toggleMenu.addEventListener('click', () => {
-    navMenu.classList.toggle('show__menu');
+    navMenu.classList.toggle('menu__show');
 })
 
 closeMenu.addEventListener('click', () => {
-    navMenu.classList.remove('show__menu');
+    navMenu.classList.remove('menu__show');
 })

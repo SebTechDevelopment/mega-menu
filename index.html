@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MegaMenu</title>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,13 +17,13 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <div class="logo"><a href="#">BAMISNEL.NL</a></div>
-            <div class="toggle__menu" id="toggle-menu">
+            <div class="menu__toggle" id="toggle-menu">
                 <box-icon name='grid-alt'></box-icon>
             </div>
             <ul class="nav__list" id="nav-menu">
-                <div class="close__menu" id="close-menu">
+                <div class="menu__close" id="close-menu">
                     <box-icon name='x'></box-icon>
                 </div>
                 <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
@@ -139,7 +139,6 @@
             </ul>
         </nav>
     </header>
-
     <script src="main.js"></script>
 </body>
 
