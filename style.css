@@ -191,9 +191,6 @@ nav {
         display: block;
     }
 
-    .toggle__menu :hover {
-    }
-
     .close__menu {
         margin: 1rem 1rem 1rem auto;
         border-radius: 50%;
